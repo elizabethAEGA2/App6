@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.PageB"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Numero de Control "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblNUM"
+                       Keyboard="Text"/>
+
+            <Label Text="NONBRE"
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblNOM"
+                       Keyboard="Text"/>
+
+            <Label Text="Apellidos "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblAPE"
+                       Keyboard="Text"/>
+
+            <Label Text="Telefono "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblTEL"
+                       Keyboard="Text"/>
+
+            <Label Text="Direccion "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblDIR"
+                       Keyboard="Text"/>
+
+            <Label Text="CURP "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblCURP"
+                       Keyboard="Text"/>
+
+            <Label Text="NNS "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+            <Entry Placeholder="Clic aqui "
+                       x:Name="lblNNS"
+                       Keyboard="Text"/>
+
+
+            <Button Text="Consltar"
+                   Clicked="EventoA"
+                   TextColor="Black"
+                   BackgroundColor= "Lavender"/>
+
+
+            <Button Text="Dar de Baja Alumno"
+                    Clicked="EventoB"
+                    TextColor="Black"
+                    BackgroundColor= "Lavender"/>
+
+
+            <Button Text="Regresar"
+                    Clicked="EventoMenu"
+                    TextColor="Black"
+                    BackgroundColor= "Lavender"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

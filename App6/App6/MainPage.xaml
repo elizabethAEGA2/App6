@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Label Text ="Instituto Tecnologico de tijuana"
+                   TextColor ="Black"
+                   FontSize="15"
+                   HorizontalOptions="Center"/>
+
+        <Label Text ="Desarrollo da aplciaciones moviles "
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="15"
+                   HorizontalOptions="Center"/>
+
+        <Label Text="Horario: 18:00 A 19:00"
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+        <Label Text="Alumno :Garcia Armijo Araceli Elizabeth"
+                   TextColor ="Black"
+                   FontAttributes="None"
+                   FontSize="10"
+                   TextDecorations="Underline"/>
+
+        <Button Text="Alta Alummno"
+                    Clicked="EventoA"
+                    TextColor="Black"
+                    BackgroundColor= "Lavender"/>
+
+        <Button Text="Baja Alumno"
+                   Clicked="EventoB"
+                   TextColor="Black"
+                   BackgroundColor= "Lavender"/>
+
+
+        <Button Text="Consultar Datos Alumno"
+                    Clicked="EventoC"
+                    TextColor="Black"
+                    BackgroundColor= "Lavender"/>
+
+
+        <Button Text="Actualizar Datos Alummno"
+                    Clicked="EventoD"
+                    TextColor="Black"
+                    BackgroundColor= "Lavender"/>
+
+    </StackLayout>
+
+</ContentPage>
+
